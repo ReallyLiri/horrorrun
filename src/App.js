@@ -2,28 +2,33 @@ import React, {useEffect, useState} from 'react';
 import styled from "styled-components";
 import {SpinnerRoundFilled} from 'spinners-react';
 
+const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
 const StyledImage = styled.img`
-    display: table;
-    margin: 0 auto;
     width: 720px;
     max-width: 100%;
+    align-self: center;
 `;
 
 const StyledSpinner = styled(SpinnerRoundFilled)`
   margin-top: 100px;
-  color: #B744B8 !important;
+  color: #EDFF7A !important;
 `;
 
 const Images = [
-    "https://i.imgur.com/A3Omqfy.png",
-
-    "https://i.imgur.com/pRWksfC.png",
-    "https://i.imgur.com/NnCtoj3.png",
-    "https://i.imgur.com/x0gz6wi.png",
-    "https://i.imgur.com/R9HdZhc.png",
-
-    "https://i.imgur.com/jqDPlzI.png",
-    "https://i.imgur.com/MI2KLQ8.png"
+    "https://i.imgur.com/OlQfbzX.png",
+    "https://i.imgur.com/Z2ZsP92.png",
+    "https://i.imgur.com/973dfLT.png",
+    "https://i.imgur.com/P2exk9e.png",
+    "https://i.imgur.com/n0d51EH.png",
+    "https://i.imgur.com/jAoLOpI.png",
+    "https://i.imgur.com/XuWQ9tc.png",
+    "https://i.imgur.com/Ym7UZZJ.png",
+    "https://i.imgur.com/u3ds2I6.png",
 ];
 
 
@@ -49,12 +54,12 @@ const App = () => {
     if (isLoading) {
         return <StyledSpinner size={200}/>
     }
-    return <div onClick={() => setImageIndex(imageIndex + 1)}>
+    return <Wrapper onClick={() => setImageIndex(imageIndex + 1)}>
         <StyledImage
             alt="image"
             src={Images[imageIndex % Images.length]}
         />
-    </div>
+    </Wrapper>
 };
 
 export default App;
