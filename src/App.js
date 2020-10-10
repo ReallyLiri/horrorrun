@@ -21,13 +21,13 @@ const StyledSpinner = styled(SpinnerRoundFilled)`
 
 const Images = [
     "https://i.imgur.com/OlQfbzX.png",
-    "https://i.imgur.com/Z2ZsP92.png",
+    "https://i.imgur.com/PChjwIy.png",
     "https://i.imgur.com/973dfLT.png",
-    "https://i.imgur.com/P2exk9e.png",
+    "https://i.imgur.com/N7UqFXI.png",
     "https://i.imgur.com/n0d51EH.png",
     "https://i.imgur.com/jAoLOpI.png",
-    "https://i.imgur.com/XuWQ9tc.png",
-    "https://i.imgur.com/Ym7UZZJ.png",
+    "https://i.imgur.com/WFxMh9L.png",
+    "https://i.imgur.com/QIJT0KY.png",
     "https://i.imgur.com/u3ds2I6.png",
 ];
 
