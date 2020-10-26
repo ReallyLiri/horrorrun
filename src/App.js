@@ -37,7 +37,7 @@ const Images = [
     "https://i.imgur.com/KGX7Rc1.png",
     "https://i.imgur.com/dkLkTJA.png",
     "https://i.imgur.com/m1EtkuM.png",
-    "https://i.imgur.com/NN3wUQ3.png",
+    "https://i.imgur.com/97cgH78.png",
     "https://i.imgur.com/yIsx0Ek.png",
     "https://i.imgur.com/hx81RoQ.png",
 ];
