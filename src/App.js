@@ -20,15 +20,26 @@ const StyledSpinner = styled(SpinnerRoundFilled)`
 `;
 
 const Images = [
-    "https://i.imgur.com/OlQfbzX.png",
-    "https://i.imgur.com/PChjwIy.png",
-    "https://i.imgur.com/973dfLT.png",
-    "https://i.imgur.com/N7UqFXI.png",
-    "https://i.imgur.com/n0d51EH.png",
-    "https://i.imgur.com/jAoLOpI.png",
-    "https://i.imgur.com/WFxMh9L.png",
-    "https://i.imgur.com/QIJT0KY.png",
-    "https://i.imgur.com/u3ds2I6.png",
+    "https://i.imgur.com/5Ak43Kv.png",
+    "https://i.imgur.com/OlxHFKI.png",
+    "https://i.imgur.com/oMkmHXc.png",
+    "https://i.imgur.com/Diwyvti.png",
+    "https://i.imgur.com/65G0jL2.png",
+    "https://i.imgur.com/dkLkTJA.png",
+    "https://i.imgur.com/62MkEo0.png",
+    "https://i.imgur.com/F7zPBNo.png",
+    "https://i.imgur.com/dkLkTJA.png",
+    "https://i.imgur.com/PuxIrnp.png",
+    "https://i.imgur.com/z71ereI.png",
+    "https://i.imgur.com/dkLkTJA.png",
+    "https://i.imgur.com/kzDYRsU.png",
+    "https://i.imgur.com/oUPxNDm.png",
+    "https://i.imgur.com/KGX7Rc1.png",
+    "https://i.imgur.com/dkLkTJA.png",
+    "https://i.imgur.com/m1EtkuM.png",
+    "https://i.imgur.com/NN3wUQ3.png",
+    "https://i.imgur.com/yIsx0Ek.png",
+    "https://i.imgur.com/hx81RoQ.png",
 ];
 
 
